@@ -7,22 +7,22 @@ reading a text file.
 
 The specific format of said text file was:
 
-<delimiter><userName>
-<userdata>
-<userdata>
-<userdata>
-<userdata>
+'delimiter' 'userName'<br>
+'userdata' <br>
+'userdata' <br>
+'userdata' <br>
+'userdata' <br>
 
 ex: 
 
-*ercurtis
-she lived
-she ate.
-that was pretty much it
-*darland
-no one really likes him
-because he eats 
-everyone's food
+*ercurtis<br>
+she lived<br>
+she ate.<br>
+that was pretty much it<br><br>
+*darland<br>
+no one really likes him<br>
+because he eats <br>
+everyone's food<br>
 
 ect...
 

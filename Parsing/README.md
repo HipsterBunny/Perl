@@ -2,8 +2,17 @@
 
 Database:
 
-    The 'Database' folder holds a perl script that takes in data and chunks it up into specific pieces of data.  After these pieces are chunked apart, and with a proper database connection - these pieces of data are placed into a pre-determined table.  I currently have it so that the '$data' field is encoded so that if you have someone just arbitrarily looking through your DB, they don't really know exactly what they are looking at.  However if they are really nosey, it's not too hard to figure out.
+    The 'Database' folder holds a perl script that takes in a line of data and chunks it up into 
+    specific pieces of data.  After the inData has been broken into pieces, with a proper database 
+    connection these pieces of data are placed into a pre-determined table.  Currently 
+    the '$data' field is encoded so that if you have someone just arbitrarily looking 
+    through your DB, they don't know exactly what they are looking at.  However if they are 
+    really nosey, it's not too hard to figure out how to decode it.
 
 Splitting:
 
-    This is a simplified version of the 'Database' script.  Basically there is a '$parseAt' variable that holds a phrase that we don't want in our text file.  In this case I chose ':D' emoticon.  You give it some indata (which I have provided), and the program will generate and outData.txt for you.  I have it adding ~'s because I was using them for formatting in the original.  I'm even nice enough to tell the user how to properly start their script... awww isn't that sweet ... :D.
+    This is a simplified version of the 'Database' script.  Basically there is a '$parseAt' variable
+    that holds a phrase that we don't want in our text file.  In this case I chose ':D' emoticon.  
+    You give it some inData (which I have provided), the program will generate an outData.txt 
+    for you.  I have it adding ~'s in the spots where the '$parseAt' value was located because I was using them 
+    for formatting in the original. isn't that sweet?!  . :D.
